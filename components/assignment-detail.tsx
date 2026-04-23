@@ -53,7 +53,7 @@ export function AssignmentDetail({
     }
 
     router.refresh()
-    setLoading(null)
+    setLoading(false)
   }
 
   return (
